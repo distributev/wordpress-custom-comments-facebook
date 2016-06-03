@@ -97,9 +97,26 @@ add_filter('comment_form_submit_button', 't_comment_form_submit_button');
 
 1. Open a single post in site. Scroll down to comments area. If you are logged in - logout and login again with facebook - click on Login with Facebook button. Open wp-admin->Settings->Discussions. Scroll down to Avatars. Will see avatars as avatar from facebook. Here  Avatar Display - checked and select which avatar to display. Logout again and login as admin. Avatars preserved from facebook.
 
-2. Open in another browser a site single post. Scroll down to comment area - Leave a Reply. Will be textarea fields, 3 default comment text fields and 4 additional text fields from Pods. Beneath 2 buttons - Login with Facebook and Connect with Facebook and Submit. Write in all fields. Click on Login with Facebook.  Use this browser as site visitor,  with other Facebook account. Will be loged in as user. In first browser you are logged in as admin. Check admin email. Comment Email notification  received. Open admin->User->All users. Will see a new user added with his facebook account, role subscriber.
+2. Open in another browser a site single post. Scroll down to comment area - Leave a Reply. Will be textarea fields, 3 default comment text fields and 4 additional text fields from Pods. Beneath 2 buttons - Login with Facebook and Connect with Facebook and Submit. Write in all fields. Click on Login with Facebook.  Use this browser as site visitor,  with other Facebook account. Will be loged in as user. In first browser you are logged in as admin. Check admin email. Will receive Email notification about New User Registration. Open admin->User->All users. Will see a new user added with his facebook account, role subscriber.
 
+3. Open second browser as user. Will see additional fields from Pods and message textarea, without login with Facebook button. Send button  is as Send. Complete fields. Send comment.
 
+4. open your admin email . Will receive an email. In my case is:
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://food.winereviewsite.com/2016/05/09/hello-world/
+
+Author: Maria Cristea (IP: 91.214.200.3, 91-214-200-3.roxnet.md)
+[Email: kiax3115@yahoo.com]()
+URL: https://www.facebook.com/app_scoped_user_id/247205465653676/
+Comment:
+Testing comment. One comment
+
+Approve it: http://food.winereviewsite.com/wp-admin/comment.php?action=approve&c=37#wpbody-content
+Trash it: http://food.winereviewsite.com/wp-admin/comment.php?action=trash&c=37#wpbody-content
+Spam it: http://food.winereviewsite.com/wp-admin/comment.php?action=spam&c=37#wpbody-content
+Currently 2 comments are waiting for approval. Please visit the moderation panel:
+http://food.winereviewsite.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
 
 
    
