@@ -101,24 +101,10 @@ add_filter('comment_form_submit_button', 't_comment_form_submit_button');
 
 3. Open second browser as user. Will see additional fields from Pods and message textarea, without login with Facebook button. Send button  is as Send. Complete fields. Send comment.
 
-4. open your admin email . Will receive an email. In my case is:
-
-A new comment on the post "Hello world!" is waiting for your approval
-http://food.winereviewsite.com/2016/05/09/hello-world/
-
-Author: Maria Cristea (IP: 91.214.200.3, 91-214-200-3.roxnet.md)
-[Email: kiax3115@yahoo.com]()
-URL: https://www.facebook.com/app_scoped_user_id/247205465653676/
-Comment:
-Testing comment. One comment
-
-Approve it: http://food.winereviewsite.com/wp-admin/comment.php?action=approve&c=37#wpbody-content
-Trash it: http://food.winereviewsite.com/wp-admin/comment.php?action=trash&c=37#wpbody-content
-Spam it: http://food.winereviewsite.com/wp-admin/comment.php?action=spam&c=37#wpbody-content
-Currently 2 comments are waiting for approval. Please visit the moderation panel:
-http://food.winereviewsite.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+4. open your admin email . Will receive an email. In my case is: A new comment on the post "Hello world!" is waiting for your approval. http://food.winereviewsite.com/2016/05/09/hello-world/ Author: Maria Cristea (IP: 91.214.200.3, 91-214-200-3.roxnet.md) [Email: kiax3115@yahoo.com] URL: https://www.facebook.com/app_scoped_user_id/247205465653676/ Comment: Testing comment. One comment Approve it: http://food.winereviewsite.com/wp-admin/comment.php?action=approve&c=37#wpbody-content Trash it: http://food.winereviewsite.com/wp-admin/comment.php?action=trash&c=37#wpbody-content Spam it: http://food.winereviewsite.com/wp-admin/comment.php?action=spam&c=37#wpbody-content Currently 2 comments are waiting for approval. Please visit the moderation panel: http://food.winereviewsite.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
 
 5. Open in first browser admin->Comments. Will see new comment, click to edit. Will see message and fileds from Pods. Can be editted. Edit and Aprove. Click Update.
+
 6. Open in first browser, where logged in as admin, single post - click in email first link, post will open in new window, will see new comment from user. Click on Reply, add a message, send. Open post, will see comment and reply with avatars from Facebook
 
 
