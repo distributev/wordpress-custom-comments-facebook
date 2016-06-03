@@ -1,25 +1,32 @@
 # wordpress-custom-comments-facebook
-Worpdress Custom Comments and with Facebook Login 
+##Worpdress Custom Comments and with Facebook Login
+## A. Pre-requisites
 
-Theme twentyfifteen
+### - [x] Your own Wordpress test installation
+### - [x] Twenty Fifteen - https://wordpress.org/themes/twentyfifteen/
+### - [x] Theme twentyfifteen at [Testing Site](http://food.winereviewsite.com/)
+### - [x] Install the free [Pods](http://pods.io) plugin
+### - [x] Install a free "light" plug-in like [Login with Facebook](https://wordpress.org/plugins/wp-facebook-login/)
 
-1. Removing Akismet plugin. It is installed by default when wp installed, not activated, but nevertheless need to remove via Plugins->Askimet->Delete.
-In admin->Settings->Discussions...:
--> Other comment settings -> Comment author must fill out name and email  - checked and Users must be registered and logged in to comment - unchecked
--> Email me whenever (2 checkboxes) -> Anyone posts a comment and A comment is held for moderation - checked.
--> "Avatar Display->"Show Avatars" - checked.
+## B. Complete project 
+### - [x] Saving of few additional custom fields along with the normal fields of Worpdress comments
+### - [x] People to post Wordpress comments just after they do "Login with Facebook"
+### - [x] Allow myself as an Admin to answer to people's comment using my own Facebook Profile
+### - [x] Customize the "threaded" view of the Wordpress comments to show the people's Facebook profile face / thubnail next to their corresponding comment
+### - [x] In the Wordpress comments administration section / screen I should be able to view / review when people submit new comments. In the same interface I should be able to view also the content of the additional custom fields which where added.
+1. Remove Akismet plugin. It is installed by default when wp installed, not activated, but nevertheless need to remove via Plugins->Askimet->Delete. In admin->Settings->Discussions...:
+  -> Other comment settings -> Comment author must fill out name and email  - checked and Users must be registered and logged in to comment - unchecked
+  -> Email me whenever (2 checkboxes) -> Anyone posts a comment and A comment is held for moderation - checked.
+  -> "Avatar Display->"Show Avatars" - checked.
 
-2. Install and activate Facebook Login plugin - https://wordpress.org/plugins/wp-facebook-login/.
-Open admin->Settings->Facebook Login. First field there is " App id".
-Create a a facebook App: 
-   a. Go to https://developers.facebook.com/
-   b. Click on Create a new app button. A popup will open.
-   c. Add the required informations, ...Site Web as url to your site.  Don't forget to make your app live (public).
-      This is very important otherwise your app will not work for all users.
-   d. Then Click the "Create App" button and follow the instructions, your new app will be created.
-   e. Copy and Paste "App ID" i wp plugin setting
-   f. Check "Facebook Avatars? " checkbox. 
-   g. Save settings
+2. Install and activate [Facebook Login plugin](https://wordpress.org/plugins/wp-facebook-login/). Open admin->Settings->Facebook Login. First field there is " App id". Create a a facebook App: 
+  a. Go to [Facebook Developers](https://developers.facebook.com/)
+  b. Click on Create a new app button. A popup will open.
+  c. Add the required informations, ...Site Web as url to your site.  Don't forget to make your app live (public). This is very important otherwise your app will not work for all users.
+  d. Then Click the "Create App" button and follow the instructions, your new app will be created.
+  e. Copy and Paste "App ID" i wp plugin setting
+  f. Check "Facebook Avatars? " checkbox. 
+  g. Save settings
    
 4. Install and activate Pods plugin... 
    a. Open wp-admin->Pods Admin -> Add New.
