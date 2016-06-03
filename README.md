@@ -35,7 +35,7 @@
       Add or Edit fields . In Basic -> Description leave empty. As Description open Advanced and put in Values, what want as description. 
    d.Save Fields, save Pods.
 
-5. Open functions.php file from twentyfifteen directory (theme).  Scroll to dawn and add 3 functions
+5. Open functions.php file from twentyfifteen directory (theme). ** Scroll to dawn and add 3 functions: **
 
 	/* =============== CUSTOM TEXTAREA FOR COMMENT =============== */
 function my_update_comment_field($comment_field) {
@@ -92,6 +92,24 @@ $button =
 	return $button;
 }
 add_filter('comment_form_submit_button', 't_comment_form_submit_button');
+
+**In theme comment.php file add at the bottom:** <script>
+jQuery(document).ready(function($) {
+jQuery.noConflict();
+$('#commentform').submit(function() {
+    if ($.trim($("#email").val()) === "" || $.trim($("#author").val()) === "") {
+        alert('Please, Login with Facebook');
+        return false;
+    }
+});
+});
+</script>
+
+**In theme stule.css add:** .comment-form .pods-field label {
+    display: none;
+}
+
+
 
 ## C. Testing
 
