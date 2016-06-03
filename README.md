@@ -126,7 +126,7 @@ $('#commentform').submit(function() {
 
 6. Open in first browser, where logged in as admin, single post - click in email first link, post will open in new window, will see new comment from user. Click on Reply, add a message, send. Open post, will see comment and reply with avatars from Facebook
 
-7. To change text "Leave a Reply" - In theme comment.php at line 56 replace function **comment_form()** by function **comment_form(array('title_reply' => "Leave a Reply"))   Change text "Leave a Reply with your own text
+7. To change text "Leave a Reply" - In theme comment.php at line 56 replace function **comment_form()** by function **comment_form(array('title_reply' => "Leave a Reply"))**   Change text "Leave a Reply with your own text
 
 8. To change text "..thought on.." incomments.php file, line 28 - 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;' - change only text, not formatting.
 
