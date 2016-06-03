@@ -93,7 +93,13 @@ $button =
 }
 add_filter('comment_form_submit_button', 't_comment_form_submit_button');
 
-6. Open a single post in site. Scroll down to comments area. If you are logged in - logout and login again with facebook - click on Login with Facebook button. Logout again and login as admin. Open wp-admin->Settings->Discussions. Scroll down to Avatars. Will see avatars as avatar from facebook. Here  Avatar Display - checked and select which avatar to display
+## C. Testing
+
+1. Open a single post in site. Scroll down to comments area. If you are logged in - logout and login again with facebook - click on Login with Facebook button. Open wp-admin->Settings->Discussions. Scroll down to Avatars. Will see avatars as avatar from facebook. Here  Avatar Display - checked and select which avatar to display. Logout again and login as admin. Avatars preserved from facebook.
+
+2. Open in another browser a site single post. Scroll down to comment area - Leave a Reply. Will be textarea fields, 3 default comment text fields and 4 additional text fields from Pods. Beneath 2 buttons - Login with Facebook and Connect with Facebook and Submit. Write in all fields. Click on Login with Facebook.  Use this browser as site visitor,  with other Facebook account. Will be loged in as user. In first browser you are logged in as admin. Check admin email. Comment Email notification  received. Open admin->User->All users. Will see a new user added with his facebook account, role subscriber.
+
+
 
 
    
