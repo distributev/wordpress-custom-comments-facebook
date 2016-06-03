@@ -118,6 +118,9 @@ Spam it: http://food.winereviewsite.com/wp-admin/comment.php?action=spam&c=37#wp
 Currently 2 comments are waiting for approval. Please visit the moderation panel:
 http://food.winereviewsite.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
 
+5. Open in first browser admin->Comments. Will see new comment, click to edit. Will see message and fileds from Pods. Can be editted. Edit and Aprove. Click Update.
+6. Open in first browser, where logged in as admin, single post - click in email first link, post will open in new window, will see new comment from user. Click on Reply, add a message, send. Open post, will see comment and reply with avatars from Facebook
+
 
    
 
