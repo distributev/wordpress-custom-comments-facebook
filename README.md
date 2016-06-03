@@ -35,7 +35,7 @@
       Add or Edit fields . In Basic -> Description leave empty. As Description open Advanced and put in Values, what want as description. 
    d.Save Fields, save Pods.
 
- 5. Open functions.php file from twentyfifteen directory (theme).  Scroll to dawn and add 3 functions
+5. Open functions.php file from twentyfifteen directory (theme).  Scroll to dawn and add 3 functions
 
 	/* =============== CUSTOM TEXTAREA FOR COMMENT =============== */
 function my_update_comment_field($comment_field) {
@@ -92,6 +92,10 @@ $button =
 	return $button;
 }
 add_filter('comment_form_submit_button', 't_comment_form_submit_button');
+
+6. Open a single post in site. Scroll down to comments area. If you are logged in - logout and login again with facebook - click on Login with Facebook button. Logout again and login as admin. Open wp-admin->Settings->Discussions. Scroll down to Avatars. Will see avatars as avatar from facebook. Here  Avatar Display - checked and select which avatar to display
+
+
    
 
 
